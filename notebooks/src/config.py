@@ -9,7 +9,7 @@ PASTA_DADOS = PASTA_PROJETO / "dados"
 DADOS_ORIGINAIS = PASTA_DADOS / "diabetes_binary_5050split_health_indicators_BRFSS2015.csv"
 
 # Caminho para os arquivos de dados de seu projeto
-DADOS_ORIGINAIS = PASTA_DADOS / "diabetes_tratado.parquet"
+DADOS_TRATADOS = PASTA_DADOS / "diabetes_tratado.parquet"
 
 # Caminho para os arquivos de modelos de seu projeto
 PASTA_MODELOS = PASTA_PROJETO / "modelos"
