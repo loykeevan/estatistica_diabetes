@@ -336,3 +336,10 @@ def analise_kruskal(
         print(f"Não rejeita a hipótese nula (valor p: {valor_p_kruskal:.3f})")
     else:
         print(f"Rejeita a hipótese nula (valor p: {valor_p_kruskal:.3f})")
+        
+def remover_outliers(dados, faixa_outlier=1.5):
+    quartil_1 = dados.quantile(0.25)
+    quartil_3 = dados.quantile(0.75)
+    fiq = quartil_3 - quartil_1
+
+    return dados[(dados >= quartil_1 - faixa_outlier * fiq) & (dados <= quartil_3 + faixa_outlier * fiq)]
