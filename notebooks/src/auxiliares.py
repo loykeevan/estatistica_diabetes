@@ -194,6 +194,7 @@ def analise_levene(dataframe, alfa=0.05 ,centro="mean"):
         *[dataframe[coluna] for coluna in dataframe.columns], 
         center=centro, 
         nan_policy="omit")
+    print(f"{estatistica_levene=:.3f}")
     if pvalue_levene > alfa:
         print(f'Variânicas Iguais (valor P: {pvalue_levene:.3f})')
     else: 
