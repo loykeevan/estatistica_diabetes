@@ -4,6 +4,8 @@ O diabetes é uma doença crônica grave na qual os indivíduos perdem a capacid
 
 O Sistema de Vigilância de Fatores de Risco Comportamentais (BRFSS) é uma pesquisa telefônica relacionada à saúde que é coletada anualmente pelo CDC (Centro de Controle e Prevenção de Doenças dos Estados Unidos). A cada ano, a pesquisa coleta respostas de milhares de americanos sobre comportamentos de risco relacionados à saúde, condições crônicas de saúde e o uso de serviços preventivos. Para este projeto, foi utilizado conjunto de dados disponível no Kaggle para o ano de 2015. 
 
+![img](imagens/imagem_ilustrativa_redimensionada.jpg)
+
 https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
 
 ## Organização do projeto
@@ -27,8 +29,7 @@ https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
 |
 ├── referencias        <- Dicionários de dados.
 |
-├── relatorios         <- Análises geradas em HTML, PDF, LaTeX, etc.
-│   └── imagens        <- Gráficos e figuras gerados para serem usados em relatórios
+└── imagens        <- Gráficos e figuras gerados para serem usados em relatórios
 ```
 
 ## Configuração do ambiente
@@ -53,4 +54,8 @@ https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
 
 ### Conhecendo mais sobre a Base de Dados:
 
-[Clique aqui].(referencias/01_dicionario_de_dados.md) para ver o dicionário das variáveis da base de dados ultilizada.
+[Clique aqui](referencias/01_dicionario_de_dados.md) para ver o dicionário das variáveis da base de dados ultilizada.
+
+### Alguns Resultados Obtidos:
+
+![img2](imagens/diabetes_por_variavel_categorica_redimensionada.png)
